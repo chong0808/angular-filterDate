@@ -8,29 +8,29 @@
 				<td>outoDate :'countDay'</td>
 				<td>outoDate :'detail'</td>
 			</tr>
-		</thead>
+		</thead
 		<tr>
-			<td>{{time}}</td>
-			<td>{{time | outoDate}}</td>
-			<td>{{time | outoDate :'countDay'}}</td>
-			<td>{{time | outoDate :'detail'}}</td>
+			<td>2016-09-20 13:04:05</td>
+			<td>9/20 13:04:05</td>
+			<td>2天前</td>
+			<td>9/20</td>
 		</tr>
 		<tr>
-			<td>{{time1}}</td>
-			<td>{{time1 | outoDate}}</td>
-			<td>{{time1 | outoDate :'countDay'}}</td>
-			<td>{{time1 | outoDate :'detail'}}</td>
+			<td>2016-8-8 17:04:05</td>
+			<td>8/8 17:04:05</td>
+			<td>{8月8日</td>
+			<td>8/8</td>
 		</tr>
 		<tr>
-			<td>{{time2}}</td>
-			<td>{{time2 | outoDate}}</td>
-			<td>{{time2 | outoDate :'countDay'}}</td>
-			<td>{{time2 | outoDate :'detail'}}</td>
+			<td>2015-8-8 17:04:05</td>
+			<td>2015/8/8 17:04:05</td>
+			<td>1年前</td>
+			<td>2015/8/8</td>
 		</tr>
 		<tr>
-			<td>{{time3}}</td>
-			<td>{{time3 | outoDate}}</td>
-			<td>{{time3 | outoDate :'countDay'}}</td>
-			<td>{{time3 | outoDate :'detail'}}</td>
+			<td>2013-1-8 17:04:05</td>
+			<td>2013/1/8 17:04:05</td>
+			<td>3年前</td>
+			<td>2013/1/8</td>
 		</tr>
 	</table>
